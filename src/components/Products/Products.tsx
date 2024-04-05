@@ -34,7 +34,7 @@ const Products = () => {
             </div>
           </div>
           <div className="btn-box">
-            <a href=""> AÑADIR AL CARRITO </a>
+            <a> AÑADIR AL CARRITO </a>
           </div>
         </div>
         <div className="box">
@@ -63,7 +63,7 @@ const Products = () => {
             </div>
           </div>
           <div className="btn-box">
-            <a href=""> AÑADIR AL CARRITO </a>
+            <a> AÑADIR AL CARRITO </a>
           </div>
         </div>
         <div className="box">
@@ -92,7 +92,7 @@ const Products = () => {
             </div>
           </div>
           <div className="btn-box">
-            <a href=""> AÑADIR AL CARRITO </a>
+            <a> AÑADIR AL CARRITO </a>
           </div>
         </div>
       </div>

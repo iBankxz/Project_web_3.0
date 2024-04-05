@@ -30,7 +30,7 @@ const About = () => {
               una cuidadosa selección de prendas únicas y de alta calidad,
               cada una con su propia historia y encanto.
             </p>
-            <a href="about.html"> Leer más </a>
+            <a> Leer más </a>
           </div>
         </div>
       </div>

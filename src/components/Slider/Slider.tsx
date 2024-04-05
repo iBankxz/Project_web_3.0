@@ -22,8 +22,8 @@ const Slider = () => {
                     esperas? Compra ahora!
                   </p>
                   <div className="btn-box">
-                    <a href="contact.html" className="btn1">CONTACTANOS</a>
-                    <a href="about.html" className="btn2">ACERCA DE NOSOTROS</a>
+                    <a className="btn1">CONTACTANOS</a>
+                    <a className="btn2">ACERCA DE NOSOTROS</a>
                   </div>
                 </div>
               </div>
@@ -45,8 +45,8 @@ const Slider = () => {
                     ambiente. ¿Qué esperas? Empieza a vender ya!
                   </p>
                   <div className="btn-box">
-                    <a href="registerBuy.html" className="btn1">EMPIEZA A VENDER</a>
-                    <a href="about.html" className="btn2">ACERCA DE NOSTROS</a>
+                    <a className="btn1">EMPIEZA A VENDER</a>
+                    <a className="btn2">ACERCA DE NOSTROS</a>
                   </div>
                 </div>
               </div>
@@ -66,8 +66,8 @@ const Slider = () => {
                     reducir el impacto ambiental sin sacrificar el estilo.
                   </p>
                   <div className="btn-box">
-                    <a href="contact.html" className="btn1">CONTACTANOS</a>
-                    <a href="about.html" className="btn2">ACERCA DE NOSOTROS</a>
+                    <a className="btn1">CONTACTANOS</a>
+                    <a className="btn2">ACERCA DE NOSOTROS</a>
                   </div>
                 </div>
               </div>

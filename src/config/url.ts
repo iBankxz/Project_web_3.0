@@ -1,0 +1,5 @@
+export const INDEX = "/"
+export const ABOUT = "/about"
+export const PRODUCTS = "/products"
+export const CONTACT = "/contact"
+export const LOGIN = "/login"

@@ -1,18 +1,17 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Menu from "./components/Menu/Menu";
-import About from "./components/About/About";
-import Products from "./components/Products/Products";
-import Contact from "./components/Contact/Contact";
+import { routes } from "./config/routes";
 
 
 function App (){
+  const route = routes.map((route) => (
+    <Route key={route.path} path={route.path} element={route.element}></Route>
+  ))
   return(
     <BrowserRouter>
+      <Menu/>
       <Routes>
-        <Route path="/" element={<Menu/>}></Route>
-        <Route path="/about" element={<About/>}></Route>
-        <Route path="/products" element={<Products/>}></Route>
-        <Route path="/contact" element={<Contact/>}></Route>
+        {route}
       </Routes>
     </BrowserRouter>
   )

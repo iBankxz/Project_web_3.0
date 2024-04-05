@@ -21,42 +21,42 @@ const Footer = () => {
             <div className="insta_container">
               <div className="row m-0">
                 <div className="col-4 px-0">
-                  <a href="product.html">
+                  <a>
                     <div className="insta-box b-1">
                        <img src="" alt="" /> 
                     </div>
                   </a>
                 </div>
                 <div className="col-4 px-0">
-                  <a href="product.html">
+                  <a>
                     <div className="insta-box b-1">
                        <img src="" alt="" /> 
                     </div>
                   </a>
                 </div>
                 <div className="col-4 px-0">
-                  <a href="product.html">
+                  <a>
                     <div className="insta-box b-1">
                        <img src="" alt="" /> 
                     </div>
                   </a>
                 </div>
                 <div className="col-4 px-0">
-                  <a href="product.html">
+                  <a>
                     <div className="insta-box b-1">
                        <img src="" alt="" /> 
                     </div>
                   </a>
                 </div>
                 <div className="col-4 px-0">
-                  <a href="product.html">
+                  <a>
                     <div className="insta-box b-1">
                        <img src="" alt="" /> 
                     </div>
                   </a>
                 </div>
                 <div className="col-4 px-0">
-                  <a href="product.html">
+                  <a>
                     <div className="insta-box b-1">
                       <img src="" alt="" /> 
                     </div>
@@ -75,16 +75,16 @@ const Footer = () => {
               <button>Suscribirse</button>
             </form>
             <div className="social_box">
-              <a href="">
+              <a>
                 <img src="images/fb.png" alt="" />
               </a>
-              <a href="">
+              <a>
                 <img src="images/twitter.png" alt="" />
               </a>
-              <a href="">
+              <a>
                 <img src="images/linkedin.png" alt="" />
               </a>
-              <a href="">
+              <a>
                 <img src="images/youtube.png" alt="" />
               </a>
             </div>
