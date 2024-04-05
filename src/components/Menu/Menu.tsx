@@ -1,14 +1,8 @@
-import React from "react";
 import { icons, routes } from "../../config/routes";
-import { NavLink, useNavigate } from "react-router-dom";
-// import { ABOUT } from "../../config/url";
+import { NavLink } from "react-router-dom";
 import * as sc from "./styles";
 
 const Menu = () => {
-  // const navigate = useNavigate();
-  // const navigation = () => {
-  //   navigate(ABOUT)
-  // }
   return (
     <sc.Container>
       <span>ReTrendy</span>
