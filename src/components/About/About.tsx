@@ -8,29 +8,45 @@ const About = () => {
         <div className="col-md-6">
           <div className="img_container">
             <div className="img-box b1">
-              <img
-                src="https://i.pinimg.com/736x/a2/5b/4d/a25b4dbebc6357e7d323bf0132cbbebd.jpg"
-                alt=""
-              />
+              <img src="https://blogs.funiber.org/wp-content/uploads/2021/10/funiblog-ma-ropa-sostenible-570x350.jpg" alt=""/>
             </div>
             <div className="img-box b2">
-              <img
-                src="https://media.gq.com.mx/photos/6398d2adf773a1a8874e3a12/1:1/w_2000,h_2000,c_limit/mejor-ropa-de-hombre-en-2023.jpg"
-                alt=""
-              />
+              <img src="https://www.chio-lecca.edu.pe/cdn/shop/articles/chio-lecca-blog-moda-sostenible.jpg?v=1689406136" alt=""/>
             </div>
           </div>
         </div>
         <div className="col-md-6">
           <div className="detail-box">
-            <h2>ACERCA DE NUESTRA TIENDA</h2>
+            <h2>
+              ¿Quiénes somos?
+            </h2>
             <p>
-              Somos tu destino para abrazar la moda sostenible con estilo y
-              conciencia. En nuestro espacio virtual, te invitamos a explorar
-              una cuidadosa selección de prendas únicas y de alta calidad,
-              cada una con su propia historia y encanto.
+              En ReTrendy, nos apasiona la moda sostenible y creemos en el poder de dar nueva vida a la ropa de segunda mano. 
+              Somos un equipo comprometido con la misión de promover un estilo de vida más ético y consciente, 
+              ofreciendo una amplia selección de prendas cuidadosamente seleccionadas.
             </p>
-            <a> Leer más </a>
+          </div>
+        </div>
+        <div className="col-md-6">
+          <div className="detail-box">
+            <h2>
+              ¿Por qué lo hacemos?
+            </h2>
+            <p>
+              Nos inspira el desafío de cambiar la percepción de la moda y demostrar que es posible lucir increíble mientras se toman decisiones responsables para el planeta. 
+              Creemos firmemente en la importancia de reducir el desperdicio textil y fomentar una economía circular donde la moda sea más sostenible y accesible para todos.
+            </p>
+          </div>
+        </div>
+        <div className="col-md-6">
+          <div className="detail-box">
+            <h2>
+              ¿Cómo puedes ayudarnos?
+            </h2>
+            <p>
+              ¡Tú puedes ser parte del cambio! Ayúdanos a difundir el mensaje de la moda sostenible compartiendo nuestras prendas y nuestra misión con tus amigos y familiares. 
+              Además, al elegir comprar con nosotros, estás contribuyendo activamente a la reducción del impacto ambiental de la industria de la moda.
+            </p>
           </div>
         </div>
       </div>

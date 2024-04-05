@@ -1,6 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Menu from "./components/Menu/Menu";
 import { routes } from "./config/routes";
+import Footer from "./components/Footer/Footer";
+import { GlobalStyle } from "./shared/styles/GlobalStyles";
 
 
 function App (){
@@ -13,6 +15,8 @@ function App (){
       <Routes>
         {route}
       </Routes>
+      <Footer/>
+      <GlobalStyle/>
     </BrowserRouter>
   )
 }
