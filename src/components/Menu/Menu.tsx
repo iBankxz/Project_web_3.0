@@ -13,15 +13,16 @@ const Menu = () => {
     <sc.Container>
       <span>ReTrendy</span>
       <ul>
-        {routes.map((route) => (
-          <li>
-            <NavLink to={route.path}>{route.name}</NavLink>
+        {routes.map((route, index) => (
+          <li key={index}>
+
+            {<NavLink to={route.path}>{route.name}</NavLink>}
           </li>
         ))}
       </ul>
       <div className="Container-icon">
-        {icons.map((route) => (
-          <NavLink to={route.path}>{route.icon}</NavLink>
+        {icons.map((route, index) => (
+          <NavLink key={index} to={route.path}>{route.icon}</NavLink>
         ))}
       </div>
     </sc.Container>
