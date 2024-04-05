@@ -31,6 +31,12 @@ export const routes  = [
         name: "Contactanos",
         element: <Contact/>  
     },
+
+    {
+        path: LOGIN,
+        // name: "Login",
+        element: <Login/>,
+    }
 ]
 
 export const icons = [
@@ -38,7 +44,7 @@ export const icons = [
     {
         path: LOGIN,
         name: "Login",  
-        icon: <FaUser/>
+        icon: <FaUser/>  
     },
 
     {
