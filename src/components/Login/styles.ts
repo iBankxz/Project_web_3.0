@@ -5,7 +5,7 @@ export const ContainerL = styled.div`
     display: flex;
     justify-content: center;
     min-height: 100vh;
-    background-size: cover;
+    background-size: cover !important;
     background-position: center;
     background: url(${img});  
 

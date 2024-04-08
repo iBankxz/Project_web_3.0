@@ -1,27 +1,39 @@
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate, useLocation } from "react-router-dom";
 import Menu from "./components/Menu/Menu";
 import { routes } from "./config/routes";
 import Footer from "./components/Footer/Footer";
 import { GlobalStyle } from "./shared/styles/GlobalStyles";
-import { Fragment } from "react/jsx-runtime";
-
+import { useEffect, useState } from "react";
 
 function App (){
-  const route = routes.map((route) => (
-    <Fragment key={route.path}>
-      <Route path={route.path} element={route.element}/>
-      <Route path="*" element={<Navigate to="/" replace />} />
-    </Fragment>
-  ))
   return(
     <BrowserRouter>
-      <Menu/>
-      <Routes>
-        {route}
-      </Routes>
-      <Footer/>
-      <GlobalStyle/>
+      <AppContent />
     </BrowserRouter>
   )
 }
+
+function AppContent() {
+  const location = useLocation();
+  const [isLoginPage, setIsLoginPage] = useState(false);
+
+  useEffect(() => {
+    setIsLoginPage(location.pathname === '/login');
+  }, [location]);
+
+  return(
+    <>
+      {!isLoginPage && <Menu />}
+      <Routes>
+        {routes.map((route) => (
+          <Route key={route.path} path={route.path} element={route.element} />
+        ))}
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
+      {!isLoginPage && <Footer />}
+      <GlobalStyle />
+    </>
+  )
+}
+
 export default App;
